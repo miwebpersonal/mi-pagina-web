@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Día Internacional de la Juventud</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1500&q=80') no-repeat center center;
+      background-size: cover;
+      padding: 100px 20px;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+
+    nav {
+      background-color: #005f99;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .section-content {
+      display: none;
+      padding: 30px;
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .section-content.active {
+      display: block;
+    }
+
+    h2 {
+      color: #007acc;
+      margin-top: 0;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .gallery img {
+      width: calc(33.333% - 10px);
+      border-radius: 8px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Día Internacional de la Juventud</h1>
+</header>
+
+<nav>
+  <a onclick="showSection('que-es')">¿Qué es?</a>
+  <a onclick="showSection('importancia')">Importancia</a>
+  <a onclick="showSection('desafios')">Desafíos</a>
+  <a onclick="showSection('celebracion')">Celebración</a>
+  <a onclick="showSection('apoyo')">Apoyo</a>
+  <a onclick="showSection('opiniones')">Opiniones</a>
+</nav>
+
+<div id="que-es" class="section-content active">
+  <h2>¿Qué es el Día Internacional de la Juventud?</h2>
+
+  <p>El 12 de agosto se conmemora el Día Internacional de la Juventud, proclamado por la Organización de las Naciones Unidas (ONU) en 1999. Esta jornada tiene como objetivo destacar la importancia de los jóvenes en la sociedad y dar visibilidad a los problemas que enfrentan en su vida diaria.</p>
+
+  <p>Este día busca generar conciencia sobre los desafíos que afectan a la juventud en todo el mundo, incluyendo el acceso a una educación de calidad, oportunidades laborales dignas, participación política, salud mental y física, igualdad de género, y justicia social.</p>
+
+  <p>Además de visibilizar estas problemáticas, se celebra el potencial transformador de los jóvenes. Se reconoce su papel activo como líderes en la lucha por el cambio climático, los derechos humanos, la paz y el desarrollo sostenible.</p>
+
+    <div class="gallery" style="justify-content: center;">
+    <img src="https://th.bing.com/th?q=Fotos+Sobre+La+Juventud&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=es-ES&cc=ES&setlang=es&adlt=moderate&t=1&mw=247"Juventud unida">
+  </div>
+
+  <p>En esta fecha, se organizan eventos en todo el mundo como foros, campañas, conferencias y actividades culturales, donde los jóvenes tienen un espacio para expresar sus ideas, inquietudes y aspiraciones.</p>
+
+  <p>También se promueve el diálogo intergeneracional, fomentando la cooperación entre jóvenes y adultos para la construcción de un mundo más inclusivo, justo y solidario. La juventud no es solo el futuro, es el presente que ya está marcando la diferencia.</p>
+
+  <div style="display: flex; justify-content: center;">
+    <iframe src="https://www.youtube.com/embed/yUVX_nL2NkA" allowfullscreen style="width: 70%; height: 250px; border-radius: 10px;"></iframe>
+  </div>
+</div>
+
+
+<div id="importancia" class="section-content">
+  <h2>Importancia del Día Internacional de la Juventud</h2>
+<script>
+  function showSection(id) {
+    document.querySelectorAll('.section-content').forEach(s => s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+  <p>El Día Internacional de la Juventud tiene una gran importancia a nivel mundial, ya que representa un reconocimiento explícito al papel que los jóvenes desempeñan en la construcción de un mundo más justo, equitativo y sostenible. Este día brinda la oportunidad de destacar sus contribuciones, pero también de visibilizar los desafíos estructurales que enfrentan en su camino hacia la autonomía y el bienestar.</p>
+
+  <p>La juventud actual representa a la generación más grande de jóvenes en la historia: más de 1.800 millones de personas entre 10 y 24 años. Esta cifra subraya la necesidad urgente de garantizar que sus derechos sean respetados, sus voces escuchadas y sus necesidades tenidas en cuenta en las políticas públicas.</p>
+
+  <p>Celebrar este día significa valorar sus ideas innovadoras, su compromiso con el cambio y su capacidad para generar movimientos sociales que inspiran a millones. Desde el activismo climático hasta las luchas por la equidad de género o los derechos humanos, los jóvenes son líderes activos en procesos transformadores en todos los continentes.</p>
+
+  <div class="gallery" style="justify-content: center;">
+    <img src="https://th.bing.com/th/id/OIP.ZQWGKw5xrDZXtR8Qe_0KZAHaFj?w=248&h=186&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Jóvenes activistas">
+  </div>
+
+  <p>Además, esta fecha se convierte en una plataforma ideal para que gobiernos, ONGs, universidades y comunidades se comprometan con la creación de entornos seguros, educativos y participativos. Se trata de una llamada a la acción para fortalecer los derechos de los jóvenes y construir sociedades más inclusivas y solidarias.</p>
+
+  <p>En muchos países, se aprovecha la celebración para realizar diagnósticos sobre la situación juvenil, lanzar campañas de concienciación, proponer reformas legislativas y generar espacios de diálogo entre generaciones.</p>
+
+  <p>La importancia de este día no está solo en el reconocimiento simbólico, sino en su potencial para impulsar cambios reales que beneficien a millones de jóvenes. La juventud es un motor de progreso y paz, y su empoderamiento garantiza un mejor presente y futuro para toda la humanidad.</p>
+
+
+<div style="display: flex; justify-content: center;">
+  <iframe src="https://www.youtube.com/embed/dPERquc92qQ" allowfullscreen style="width: 70%; height: 250px; border-radius: 10px;"></iframe>
+ </div>
+</div>
+
+<!-- Sección: Desafíos -->
+<div id="desafios" class="section-content">
+  <h2>Desafíos que Enfrenta la Juventud</h2>
+
+  <p>Los jóvenes enfrentan una gran variedad de desafíos en la actualidad. Entre ellos, destacan el desempleo juvenil, la falta de oportunidades educativas, la precariedad laboral, y el acceso limitado a servicios de salud, especialmente mental.</p>
+
+  <p>En muchas regiones del mundo, los jóvenes son víctimas de discriminación por edad, origen, identidad de género o situación económica. Además, la crisis climática, la desinformación en redes sociales y los entornos inestables impactan directamente su bienestar emocional y físico.</p>
+
+  <p>Es fundamental que gobiernos, instituciones y comunidades escuchen sus demandas, promuevan políticas públicas inclusivas, y generen entornos seguros donde puedan crecer y aportar activamente al desarrollo social.</p>
+
+  <div class="gallery" style="justify-content: center;">
+    <img src="https://eresmama.com/wp-content/uploads/2022/07/retos-desafios-adolescente-500x333.jpg" alt="Desafíos de los jóvenes">
+  </div>
+
+  <p>Además, los desafíos digitales como el ciberacoso, la adicción a redes sociales y la sobreinformación afectan su salud mental. Muchos jóvenes también enfrentan dificultades para acceder a recursos tecnológicos y plataformas educativas, especialmente en zonas rurales o de bajos ingresos.</p>
+
+  <p>La participación juvenil en política sigue siendo limitada. A pesar de tener ideas innovadoras y liderazgo, no siempre se les brinda la oportunidad de participar en decisiones que impactan directamente sus vidas.</p>
+
+  <div style="display: flex; justify-content: center;">
+  <iframe src="https://www.youtube.com/embed/_JsUyn2bGzo" allowfullscreen style="width: 70%; height: 250px; border-radius: 10px;"></iframe>
+</div>
+
+  <p>Abordar estos desafíos requiere una respuesta global que incluya acceso a educación gratuita y de calidad, oportunidades laborales dignas, atención a la salud emocional, y políticas que garanticen igualdad, justicia y sostenibilidad ambiental.</p>
+
+  <p>Solo con un enfoque integral e inclusivo podremos garantizar que las nuevas generaciones vivan con dignidad, esperanza y libertad para transformar positivamente sus comunidades y el mundo.</p>
+</div>
+
+<!-- Sección: Celebración -->
+<div id="celebracion" class="section-content">
+  <h2>¿Cómo se celebra el Día Internacional de la Juventud?</h2>
+
+  <p>El Día Internacional de la Juventud se celebra cada año el 12 de agosto en todo el mundo, con el objetivo de destacar el papel de los jóvenes como actores clave del cambio. Las celebraciones varían según los países, pero comparten el espíritu de empoderamiento, participación y visibilidad de la juventud en la sociedad.</p>
+
+  <p>Organizaciones juveniles, instituciones educativas, gobiernos, ONGs y comunidades locales realizan actividades como ferias, conciertos, talleres, campañas en redes sociales, charlas inspiradoras, eventos deportivos, intervenciones urbanas y más. Estas actividades buscan promover los derechos de los jóvenes, su bienestar y su inclusión social y política.</p>
+
+  <p>Además, se llevan a cabo foros internacionales, conferencias y encuentros que permiten a los jóvenes compartir sus experiencias, ideas y propuestas frente a los desafíos que enfrentan en sus comunidades. Este día se convierte en una gran oportunidad para fortalecer redes juveniles a nivel nacional e internacional.</p>
+
+  <div class="gallery" style="justify-content: center;">
+    <img src="https://th.bing.com/th/id/OIP.Mj_EaXyOwxiz-Ql8h6kV0QHaFj?w=283&h=212&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Celebración juvenil">
+  </div>
+
+  <p>En muchos lugares, se utilizan las plataformas digitales para amplificar la celebración: se lanzan hashtags, se crean contenidos virales y se invita a los jóvenes a compartir sus historias, proyectos y sueños. La creatividad y la tecnología se convierten en herramientas para unir voces y multiplicar el impacto del mensaje.</p>
+
+  <p>Las celebraciones también fomentan la diversidad cultural, el trabajo colaborativo y la conciencia social. Se honra la contribución de los jóvenes a temas como la paz, la justicia, la sostenibilidad ambiental, la igualdad de género y la innovación científica y tecnológica.</p>
+
+  <div style="display: flex; justify-content: center;">
+    <iframe src="https://www.youtube.com/embed/tbtj-vnCveE" allowfullscreen style="width: 70%; height: 250px; border-radius: 10px;"></iframe>
+  </div>
+
+  <p>Celebrar este día no es solo una forma de rendir homenaje a la juventud, sino también una invitación a toda la sociedad a escuchar, apoyar y trabajar junto a los jóvenes en la construcción de un mundo mejor. Es una fecha que refuerza el compromiso global con una generación que ya está marcando la diferencia.</p>
+</div>
+
+<!-- Sección: Apoyo -->
+<div id="apoyo" class="section-content">
+  <h2>Apoyo a la Juventud</h2>
+
+  <p>El apoyo a la juventud es esencial para garantizar su desarrollo integral y su participación activa en la sociedad. Diversas organizaciones y programas gubernamentales trabajan para proporcionar a los jóvenes las herramientas y oportunidades necesarias para enfrentar los desafíos actuales.</p>
+
+  <p>Entre las iniciativas destacadas se encuentran programas de capacitación laboral, becas educativas, acceso a servicios de salud mental y espacios de participación ciudadana. Estos esfuerzos buscan empoderar a los jóvenes, fomentar su autonomía y promover su bienestar.</p>
+
+  <div class="gallery" style="justify-content: center;">
+    <img src="https://th.bing.com/th/id/OIP.8hBxaeze0p7VStrDfBUFewHaD4?w=336&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Programas de apoyo a la juventud">
+  </div>
+
+  <p>Además, organizaciones como The Trevor Project ofrecen apoyo especializado a jóvenes LGBTQ+, proporcionando líneas de ayuda y recursos para prevenir crisis y promover entornos seguros e inclusivos.</p>
+
+  <p>Es fundamental que la sociedad en su conjunto reconozca la importancia de invertir en la juventud, asegurando que todos los jóvenes, independientemente de su origen o situación, tengan acceso a oportunidades que les permitan alcanzar su máximo potencial.</p>
+
+  <div style="display: flex; justify-content: center;">
+    <iframe src="https://www.youtube.com/embed/rddefCQEDU8" allowfullscreen style="width: 70%; height: 250px; border-radius: 10px;"></iframe>
+  </div>
+</div>
+
+<!-- Sección: Desafíos -->
+<div id="desafios" class="section-content">
+  <h2>Desafíos que Enfrenta la Juventud</h2>
+
+  <p>Los jóvenes enfrentan una gran variedad de desafíos en la actualidad. Entre ellos, destacan el desempleo juvenil, la falta de oportunidades educativas, la precariedad laboral, y el acceso limitado a servicios de salud, especialmente mental.</p>
+
+  <p>En muchas regiones del mundo, los jóvenes son víctimas de discriminación por edad, origen, identidad de género o situación económica. Además, la crisis climática, la desinformación en redes sociales y los entornos inestables impactan directamente su bienestar emocional y físico.</p>
+
+  <p>Es fundamental que gobiernos, instituciones y comunidades escuchen sus demandas, promuevan políticas públicas inclusivas, y generen entornos seguros donde puedan crecer y aportar activamente al desarrollo social.</p>
+
+  <div class="gallery" style="justify-content: center;">
+    <img src="https://cdn.pixabay.com/photo/2017/01/20/00/30/people-1990108_1280.jpg" alt="Grupo de jóvenes en diálogo">
+  </div>
+
+  <div style="display: flex; justify-content: center;">
+    <iframe src="https://www.youtube.com/embed/IWdjt0vX1K8" allowfullscreen style="width: 70%; height: 250px; border-radius: 10px;"></iframe>
+  </div>
+</div>
+
+<!-- Sección: Opiniones -->
+<div id="opiniones" class="section-content">
+  <h2>Opiniones de Jóvenes sobre sus Desafíos</h2>
+
+  <p>La voz de la juventud es fundamental para comprender el impacto real de los desafíos que enfrentan. Muchos jóvenes expresan su frustración por la falta de oportunidades laborales y la sensación de estar constantemente compitiendo en un sistema desigual.</p>
+
+  <p>“Estudié una carrera universitaria, pero aún así no consigo un empleo estable. Siento que no importa cuánto me esfuerce”, comenta Ana, de 24 años. Por su parte, Diego, de 19 años, menciona: “La salud mental no se toma en serio. Nos piden que rindamos al máximo, pero no nos dan herramientas para hacerlo”.</p>
+
+  <p>Otros jóvenes, como Lucía (22), destacan el problema de la desinformación: “Muchas veces no sabemos qué es verdad y qué no. Es difícil tomar decisiones con tanta confusión en redes sociales”.</p>
+
+  <p>Estas opiniones reflejan una necesidad urgente de políticas centradas en la juventud, espacios de participación activa y una educación que incluya habilidades emocionales y digitales.</p>
+
+  <div class="gallery" style="justify-content: center; flex-direction: column; align-items: center;">
+    <img src="https://th.bing.com/th/id/OIP.lmpVOpLD2Bazr-SfExcu3gHaE8?w=234&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Jóvenes compartiendo ideas">
+    <p style="max-width: 70%; text-align: center; margin-top: 10px;">
+      Jóvenes compartiendo sus perspectivas en espacios de diálogo comunitario. La participación activa fortalece el sentido de pertenencia y visibiliza sus preocupaciones.
+    </p>
+  </div>
+
+  <div style="display: flex; justify-content: center; margin-top: 20px;">
+    <iframe src="https://www.youtube.com/embed/H9Z46Fdi4iY" allowfullscreen style="width: 70%; height: 250px; border-radius: 10px;"></iframe>
+  </div>
+</div>
+
+<!-- Sección: Importancia -->
+<div id="importancia" class="section-content">
+  <h2>Importancia del Día Internacional de la Juventud</h2>
+  <p>El Día Internacional de la Juventud es un momento clave para reconocer el papel fundamental que tienen los jóvenes en el desarrollo social, cultural y económico de las comunidades a nivel mundial.</p>
+  <p>Promueve la participación activa, el empoderamiento y el acceso a derechos, además de fomentar el diálogo entre generaciones para construir un futuro inclusivo.</p>
+</div>
+
+<script>
+  function showSection(id) {
+    document.querySelectorAll('.section-content').forEach(s => s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
